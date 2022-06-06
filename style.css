@@ -6,15 +6,15 @@ body {
 .first-box{
     background-color: #1f2937;
     color:white;
-    height: 300px;    
+        
 }
 .header-box { 
     padding-top: 20px;
-    padding-bottom: 50px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
     display: flex;
-    background-color: black;
+   
     justify-content: space-between;
     font-size: 24px;
 }
@@ -25,11 +25,37 @@ body {
 }
 .header-links div{
     
-    background-color: red;
+    
     flex: 1 1 auto;
 }
   
-  
+.text-picture{
+    display: flex;
+	justify-content:space-between;
+	padding:25px 0 ;
+	max-width:1280px;
+	margin:auto;
+    padding-right: 80px;
+    padding-left: 80px;
+    
+}  
+.picture1{
+    flex: 0 0 45%;
+    overflow:hidden;
+	position:relative;
+    
+}
+.picture1 img{
+    
+	top:50%;
+	left:50%;
+	height:100%;
+	width:100%;
+	min-width:100%;
+	min-height:100%;
+	transform:translate(-0%, -0%);
+}
+
   
   
   
