@@ -1,0 +1,37 @@
+
+body {
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace
+  }
+.first-box{
+    background-color: #1f2937;
+    color:white;
+    height: 300px;    
+}
+.header-box { 
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+.header-links div{
+    
+    background-color: red;
+    flex: 1 1 auto;
+}
+  
+  
+  
+  
+  
+  
+ 
